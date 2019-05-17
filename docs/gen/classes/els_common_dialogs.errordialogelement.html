@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>WaiterElement | Common Custom Elements</title>
+	<title>ErrorDialogElement | Common Custom Elements</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,13 +56,13 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/els_waiter.html">els/waiter</a>
+					<a href="../modules/els_common_dialogs.html">els/common/dialogs</a>
 				</li>
 				<li>
-					<a href="els_waiter.waiterelement.html">WaiterElement</a>
+					<a href="els_common_dialogs.errordialogelement.html">ErrorDialogElement</a>
 				</li>
 			</ul>
-			<h1>Class WaiterElement</h1>
+			<h1>Class ErrorDialogElement</h1>
 		</div>
 	</div>
 </header>
@@ -72,7 +72,7 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Polymer element to display waiter for lengthy operations</p>
+						<p>Polymer dialog to display an error</p>
 					</div>
 				</div>
 			</section>
@@ -83,7 +83,7 @@
 						<a href="els_common_base_element.baseelement.html" class="tsd-signature-type">BaseElement</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">WaiterElement</span>
+								<span class="target">ErrorDialogElement</span>
 							</li>
 						</ul>
 					</li>
@@ -96,30 +96,35 @@
 						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="els_waiter.waiterelement.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="els_common_dialogs.errordialogelement.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Events</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-event tsd-parent-kind-class"><a href="els_common_dialogs.errordialogelement.html#onconfirmtapped" class="tsd-kind-icon">on<wbr>Confirm<wbr>Tapped</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-private-protected">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_waiter.waiterelement.html#active" class="tsd-kind-icon">active</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_waiter.waiterelement.html#label" class="tsd-kind-icon">label</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_waiter.waiterelement.html#status" class="tsd-kind-icon">status</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_waiter.waiterelement.html#statuslabel" class="tsd-kind-icon">status<wbr>Label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_common_dialogs.errordialogelement.html#dialog" class="tsd-kind-icon">dialog</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="els_common_dialogs.errordialogelement.html#showconfirmbutton" class="tsd-kind-icon">show<wbr>Confirm<wbr>Button</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-static"><a href="els_waiter.waiterelement.html#template" class="tsd-kind-icon">template</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-static"><a href="els_common_dialogs.errordialogelement.html#template" class="tsd-kind-icon">template</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="els_waiter.waiterelement.html#fireevent" class="tsd-kind-icon">fire<wbr>Event</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="els_waiter.waiterelement.html#statuslabelchanged" class="tsd-kind-icon">status<wbr>Label<wbr>Changed</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="els_waiter.waiterelement.html#localize" class="tsd-kind-icon">localize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="els_common_dialogs.errordialogelement.html#close" class="tsd-kind-icon">close</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="els_common_dialogs.errordialogelement.html#fireevent" class="tsd-kind-icon">fire<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="els_common_dialogs.errordialogelement.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="els_common_dialogs.errordialogelement.html#localize" class="tsd-kind-icon">localize</a></li>
 							</ul>
 						</section>
 					</div>
@@ -131,17 +136,42 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Waiter<wbr>Element<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="els_waiter.waiterelement.html" class="tsd-signature-type">WaiterElement</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Error<wbr>Dialog<wbr>Element<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="els_common_dialogs.errordialogelement.html" class="tsd-signature-type">ErrorDialogElement</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from (Anonymous class).__constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/mixins/i8n_mixin.ts#L25">src/mixins/i8n_mixin.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/mixins/i8n_mixin.ts#L25">src/mixins/i8n_mixin.ts:25</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <a href="els_waiter.waiterelement.html" class="tsd-signature-type">WaiterElement</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="els_common_dialogs.errordialogelement.html" class="tsd-signature-type">ErrorDialogElement</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Events</h2>
+				<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-class">
+					<a name="onconfirmtapped" class="tsd-anchor"></a>
+					<h3>on<wbr>Confirm<wbr>Tapped</h3>
+					<ul class="tsd-signatures tsd-kind-event tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">on<wbr>Confirm<wbr>Tapped<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L51">src/error-dialog/error-dialog.ts:51</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Dialog confirm button click</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -149,62 +179,32 @@
 			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-					<a name="active" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> active</h3>
-					<div class="tsd-signature tsd-kind-icon">active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<a name="dialog" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> dialog</h3>
+					<div class="tsd-signature tsd-kind-icon">dialog<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">PaperDialogElement</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L32">src/waiter-element/waiter-element.ts:32</a></li>
+							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L43">src/error-dialog/error-dialog.ts:43</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Visible and active state</p>
+							<p>paper-dialog</p>
 						</div>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-					<a name="label" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> label</h3>
-					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Working...&quot;</span></div>
+					<a name="showconfirmbutton" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> show<wbr>Confirm<wbr>Button</h3>
+					<div class="tsd-signature tsd-kind-icon">show<wbr>Confirm<wbr>Button<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L36">src/waiter-element/waiter-element.ts:36</a></li>
+							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L39">src/error-dialog/error-dialog.ts:39</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Label to display</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-					<a name="status" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> status</h3>
-					<div class="tsd-signature tsd-kind-icon">status<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">PaperItemElement</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L44">src/waiter-element/waiter-element.ts:44</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Status label element</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-					<a name="statuslabel" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> status<wbr>Label</h3>
-					<div class="tsd-signature tsd-kind-icon">status<wbr>Label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L40">src/waiter-element/waiter-element.ts:40</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Status Label to display</p>
+							<p>Display confirm button state</p>
 						</div>
 					</div>
 				</section>
@@ -221,7 +221,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L52">src/waiter-element/waiter-element.ts:52</a></li>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L74">src/error-dialog/error-dialog.ts:74</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLTemplateElement</span></h4>
@@ -231,6 +231,28 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="close" class="tsd-anchor"></a>
+					<h3>close</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">close<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L70">src/error-dialog/error-dialog.ts:70</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Hide the dialog</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 					<a name="fireevent" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> fire<wbr>Event</h3>
@@ -242,7 +264,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="els_common_base_element.baseelement.html">BaseElement</a>.<a href="els_common_base_element.baseelement.html#fireevent">fireEvent</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/base-element/base-element.ts#L48">src/base-element/base-element.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/base-element/base-element.ts#L48">src/base-element/base-element.ts:48</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -269,24 +291,33 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-					<a name="statuslabelchanged" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> status<wbr>Label<wbr>Changed</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">status<wbr>Label<wbr>Changed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">(</span>title<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, text<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/waiter-element/waiter-element.ts#L48">src/waiter-element/waiter-element.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/error-dialog/error-dialog.ts#L58">src/error-dialog/error-dialog.ts:58</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Set status label</p>
+									<p>Show the dialog</p>
 								</div>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>title: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>text: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -302,7 +333,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from (Anonymous class).localize</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/8af1467/src/mixins/i8n_mixin.ts#L37">src/mixins/i8n_mixin.ts:37</a></li>
+									<li>Defined in <a href="https://github.com/opus1269/common-custom-elements/blob/a6f7233/src/mixins/i8n_mixin.ts#L37">src/mixins/i8n_mixin.ts:37</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -343,6 +374,9 @@
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/els_common_base_element.html">els/common/base_<wbr>element</a>
 					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/els_common_dialogs.html">els/common/dialogs</a>
+					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/els_common_mixins.html">els/common/mixins</a>
 					</li>
@@ -353,10 +387,7 @@
 						<a href="../modules/els_common_shared_styles.html">els/common/shared_<wbr>styles</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/els_dialogs.html">els/dialogs</a>
-					</li>
-					<li class="current tsd-kind-external-module">
-						<a href="../modules/els_waiter.html">els/waiter</a>
+						<a href="../modules/els_common_waiter.html">els/common/waiter</a>
 					</li>
 					<li class="label tsd-is-external">
 						<span>Externals</span>
@@ -386,37 +417,40 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="els_common_dialogs.confirmdialogelement.html" class="tsd-kind-icon">Confirm<wbr>Dialog<wbr>Element</a>
+					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-external-module">
-						<a href="els_waiter.waiterelement.html" class="tsd-kind-icon">Waiter<wbr>Element</a>
+						<a href="els_common_dialogs.errordialogelement.html" class="tsd-kind-icon">Error<wbr>Dialog<wbr>Element</a>
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited tsd-is-static">
-								<a href="els_waiter.waiterelement.html#constructor" class="tsd-kind-icon">constructor</a>
+								<a href="els_common_dialogs.errordialogelement.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-event tsd-parent-kind-class">
+								<a href="els_common_dialogs.errordialogelement.html#onconfirmtapped" class="tsd-kind-icon">on<wbr>Confirm<wbr>Tapped</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#active" class="tsd-kind-icon">active</a>
+								<a href="els_common_dialogs.errordialogelement.html#dialog" class="tsd-kind-icon">dialog</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#label" class="tsd-kind-icon">label</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#status" class="tsd-kind-icon">status</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#statuslabel" class="tsd-kind-icon">status<wbr>Label</a>
+								<a href="els_common_dialogs.errordialogelement.html#showconfirmbutton" class="tsd-kind-icon">show<wbr>Confirm<wbr>Button</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-								<a href="els_waiter.waiterelement.html#template" class="tsd-kind-icon">template</a>
+								<a href="els_common_dialogs.errordialogelement.html#template" class="tsd-kind-icon">template</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="els_common_dialogs.errordialogelement.html#close" class="tsd-kind-icon">close</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#fireevent" class="tsd-kind-icon">fire<wbr>Event</a>
+								<a href="els_common_dialogs.errordialogelement.html#fireevent" class="tsd-kind-icon">fire<wbr>Event</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-								<a href="els_waiter.waiterelement.html#statuslabelchanged" class="tsd-kind-icon">status<wbr>Label<wbr>Changed</a>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="els_common_dialogs.errordialogelement.html#open" class="tsd-kind-icon">open</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
-								<a href="els_waiter.waiterelement.html#localize" class="tsd-kind-icon">localize</a>
+								<a href="els_common_dialogs.errordialogelement.html#localize" class="tsd-kind-icon">localize</a>
 							</li>
 						</ul>
 					</li>
