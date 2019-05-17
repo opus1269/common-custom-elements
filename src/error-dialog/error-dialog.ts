@@ -1,7 +1,7 @@
 /**
  * Modal dialogs
  *
- * @module els/dialogs
+ * @module els/common/dialogs
  */
 
 /** */

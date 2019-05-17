@@ -1,7 +1,7 @@
 /**
  * Custom element
  *
- * @module els/waiter
+ * @module els/common/waiter
  */
 
 /** */
