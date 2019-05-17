@@ -11,24 +11,22 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {DomRepeat} from '../../../node_modules/@polymer/polymer/lib/elements/dom-repeat';
+import {DomRepeat} from '@polymer/polymer/lib/elements/dom-repeat';
 
-import {customElement, listen, property, query} from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html, PolymerElement} from '../../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 
-import '../../../node_modules/@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import '../../../node_modules/@polymer/paper-item/paper-item.js';
-import '../../../node_modules/@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-listbox/paper-listbox.js';
 
-import '../../../node_modules/@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '../../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
-/**
- * Polymer element to select an item from a list
- */
+/** Polymer element to select an item from a list */
 @customElement('setting-dropdown')
 export class SettingDropdownElement extends SettingBase {
 

@@ -11,21 +11,21 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {customElement, listen, property} from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, listen, property} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../../node_modules/@polymer/iron-label/iron-label.js';
+import '@polymer/iron-label/iron-label.js';
 
-import '../../../node_modules/@polymer/paper-item/paper-item-body.js';
-import '../../../node_modules/@polymer/paper-item/paper-item.js';
-import '../../../node_modules/@polymer/paper-ripple/paper-ripple.js';
-import '../../../node_modules/@polymer/paper-toggle-button/paper-toggle-button.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-ripple/paper-ripple.js';
+import '@polymer/paper-toggle-button/paper-toggle-button.js';
 
-import '../../../node_modules/@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '../../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
 /** Polymer element for a toggle button */
 @customElement('setting-toggle')

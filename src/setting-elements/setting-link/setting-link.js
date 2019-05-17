@@ -14,20 +14,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  *  https://opensource.org/licenses/BSD-3-Clause
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
-import { customElement, listen, property } from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import { html } from '../../../node_modules/@polymer/polymer/polymer-element.js';
-import '../../../node_modules/@polymer/iron-icon/iron-icon.js';
-import '../../../node_modules/@polymer/paper-item/paper-icon-item.js';
-import '../../../node_modules/@polymer/paper-ripple/paper-ripple.js';
+import { customElement, listen, property } from '@polymer/decorators/lib/decorators.js';
+import { html } from '@polymer/polymer/polymer-element.js';
+import '@polymer/iron-icon/iron-icon.js';
+import '@polymer/paper-item/paper-icon-item.js';
+import '@polymer/paper-ripple/paper-ripple.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '../../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
-/**
- * Polymer element for a url link
- */
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+/** Polymer element for a url link */
 let SettingLinkElement = class SettingLinkElement extends SettingBase {
-    /**
-     * Polymer element for a url link
-     */
+    /** Polymer element for a url link */
     constructor() {
         super(...arguments);
         /** Description */

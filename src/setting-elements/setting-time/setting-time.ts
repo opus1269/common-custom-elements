@@ -10,22 +10,20 @@
  *  https://opensource.org/licenses/BSD-3-Clause
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
-import {customElement, property} from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, property} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../../node_modules/@polymer/paper-input/paper-input.js';
-import '../../../node_modules/@polymer/paper-item/paper-item-body.js';
-import '../../../node_modules/@polymer/paper-item/paper-item.js';
+import '@polymer/paper-input/paper-input.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-item/paper-item.js';
 
-import '../../../node_modules/@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import {DEF_TIME} from '../../../node_modules/@opus1269/chrome-ext-utils/src/time.js';
+import {DEF_TIME} from '@opus1269/chrome-ext-utils/src/time.js';
 
-/**
- * Polymer element for time entry
- */
+/** Polymer element for time entry */
 @customElement('setting-time')
 export class SettingTimeElement extends SettingBase {
 

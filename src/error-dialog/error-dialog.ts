@@ -13,24 +13,22 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {PaperDialogElement} from '../../node_modules/@polymer/paper-dialog/paper-dialog.js';
+import {PaperDialogElement} from '@polymer/paper-dialog/paper-dialog.js';
 
-import {customElement, listen, property, query} from '../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../node_modules/@polymer/paper-button/paper-button.js';
-import '../../node_modules/@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
-import '../../node_modules/@polymer/paper-dialog/paper-dialog.js';
-import '../../node_modules/@polymer/paper-item/paper-item.js';
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
+import '@polymer/paper-dialog/paper-dialog.js';
+import '@polymer/paper-item/paper-item.js';
 
-import '../../node_modules/@polymer/neon-animation/animations/fade-out-animation.js';
-import '../../node_modules/@polymer/neon-animation/animations/scale-up-animation.js';
+import '@polymer/neon-animation/animations/fade-out-animation.js';
+import '@polymer/neon-animation/animations/scale-up-animation.js';
 
 import {BaseElement} from '../base-element/base-element.js';
 
-/**
- * Polymer dialog to display an error
- */
+/** Polymer dialog to display an error */
 @customElement('error-dialog')
 export class ErrorDialogElement extends BaseElement {
 

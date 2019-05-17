@@ -13,13 +13,13 @@
  * https://goo.gl/wFvBM1
  */
 
-import {PaperItemElement} from '../../node_modules/@polymer/paper-item/paper-item';
+import {PaperItemElement} from '@polymer/paper-item/paper-item';
 
-import {customElement, observe, property, query} from '../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, observe, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../node_modules/@polymer/paper-item/paper-item.js';
-import '../../node_modules/@polymer/paper-spinner/paper-spinner.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-spinner/paper-spinner.js';
 
 import {BaseElement} from '../base-element/base-element.js';
 

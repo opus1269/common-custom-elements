@@ -14,28 +14,26 @@
  * https://goo.gl/wFvBM1
  */
 
-import {PaperDialogElement} from '../../node_modules/@polymer/paper-dialog/paper-dialog.js';
+import {PaperDialogElement} from '@polymer/paper-dialog/paper-dialog.js';
 
-import {customElement, listen, property, query} from '../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../node_modules/@polymer/paper-button/paper-button.js';
-import '../../node_modules/@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
-import '../../node_modules/@polymer/paper-dialog/paper-dialog.js';
-import '../../node_modules/@polymer/paper-item/paper-item.js';
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
+import '@polymer/paper-dialog/paper-dialog.js';
+import '@polymer/paper-item/paper-item.js';
 
-import '../../node_modules/@polymer/neon-animation/animations/fade-out-animation.js';
-import '../../node_modules/@polymer/neon-animation/animations/scale-up-animation.js';
+import '@polymer/neon-animation/animations/fade-out-animation.js';
+import '@polymer/neon-animation/animations/scale-up-animation.js';
 
 import {BaseElement} from '../base-element/base-element.js';
 
-import * as ChromeGA from '../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
-import * as ChromeLocale from '../../node_modules/@opus1269/chrome-ext-utils/src/locales.js';
-import * as ChromeUtils from '../../node_modules/@opus1269/chrome-ext-utils/src/utils.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales.js';
+import * as ChromeUtils from '@opus1269/chrome-ext-utils/src/utils.js';
 
-/**
- * Polymer dialog to confirm an action
- */
+/** Polymer dialog to confirm an action */
 @customElement('confirm-dialog')
 export class ConfirmDialogElement extends BaseElement {
 

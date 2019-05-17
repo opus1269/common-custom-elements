@@ -15,24 +15,24 @@
 
 /* tslint:disable:max-line-length */
 
-import {PaperDialogElement} from '../../../node_modules/@polymer/paper-dialog/paper-dialog';
+import {PaperDialogElement} from '@polymer/paper-dialog/paper-dialog';
 
-import {customElement, listen, property, query} from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../../node_modules/@polymer/polymer/polymer-element.js';
+import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../../node_modules/@polymer/iron-selector/iron-selector.js';
+import '@polymer/iron-selector/iron-selector.js';
 
-import '../../../node_modules/@polymer/paper-button/paper-button.js';
-import '../../../node_modules/@polymer/paper-dialog/paper-dialog.js';
-import '../../../node_modules/@polymer/paper-item/paper-item-body.js';
-import '../../../node_modules/@polymer/paper-item/paper-item.js';
-import '../../../node_modules/@polymer/paper-ripple/paper-ripple.js';
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-dialog/paper-dialog.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-ripple/paper-ripple.js';
 
-import '../../../node_modules/@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '../../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
 /** Polymer element to select a background style */
 @customElement('setting-background')

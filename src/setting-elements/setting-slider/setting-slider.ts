@@ -11,8 +11,8 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {PaperListboxElement} from '../../../node_modules/@polymer/paper-listbox/paper-listbox';
-import {DomRepeat} from '../../../node_modules/@polymer/polymer/lib/elements/dom-repeat';
+import {PaperListboxElement} from '@polymer/paper-listbox/paper-listbox';
+import {DomRepeat} from '@polymer/polymer/lib/elements/dom-repeat';
 
 import {
   customElement,
@@ -20,23 +20,21 @@ import {
   observe,
   property,
   query,
-} from '../../../node_modules/@polymer/decorators/lib/decorators.js';
-import {html} from '../../../node_modules/@polymer/polymer/polymer-element.js';
+} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '../../../node_modules/@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import '../../../node_modules/@polymer/paper-item/paper-item.js';
-import '../../../node_modules/@polymer/paper-listbox/paper-listbox.js';
-import '../../../node_modules/@polymer/paper-slider/paper-slider.js';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-slider/paper-slider.js';
 
-import '../../../node_modules/@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '../../../node_modules/@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
-/**
- * Unit type
- */
+/** Unit type */
 interface IUnitType {
   /** unit name */
   name: string;
@@ -50,9 +48,7 @@ interface IUnitType {
   mult: number;
 }
 
-/**
- * Unit value
- */
+/** Unit value */
 export interface IUnitValue {
   /** base value */
   base: number;
@@ -62,9 +58,7 @@ export interface IUnitValue {
   unit: number;
 }
 
-/**
- * Polymer element for a url link
- */
+/** Polymer element for a url link */
 @customElement('setting-slider')
 export class SettingSliderElement extends SettingBase {
 
