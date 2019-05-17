@@ -1,7 +1,7 @@
-# chrome-ext-utils
+# common-custom-elements
 
-Utility methods for Chrome extensions
+Web Components Custom Elements built with Polymer 3
 
 <br />
 
-[GitHub Pages](https://opus1269.github.io/chrome-ext-utils/)
+[GitHub Pages](https://opus1269.github.io/common-custom-elements/)
