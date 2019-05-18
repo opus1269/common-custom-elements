@@ -15,13 +15,13 @@
 
 import {PaperItemElement} from '@polymer/paper-item/paper-item';
 
-import {customElement, observe, property, query} from '@polymer/decorators/lib/decorators.js';
-import {html} from '@polymer/polymer/polymer-element.js';
+import {customElement, observe, property, query} from '@polymer/decorators/lib/decorators';
+import {html} from '@polymer/polymer/polymer-element';
 
-import '@polymer/paper-item/paper-item.js';
-import '@polymer/paper-spinner/paper-spinner.js';
+import '@polymer/paper-item/paper-item';
+import '@polymer/paper-spinner/paper-spinner';
 
-import {BaseElement} from '../base-element/base-element.js';
+import {BaseElement} from '../base-element/base-element';
 
 /** Polymer element to display waiter for lengthy operations */
 @customElement('waiter-element')

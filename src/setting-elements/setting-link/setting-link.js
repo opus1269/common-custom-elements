@@ -14,13 +14,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  *  https://opensource.org/licenses/BSD-3-Clause
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
-import { customElement, listen, property } from '@polymer/decorators/lib/decorators.js';
-import { html } from '@polymer/polymer/polymer-element.js';
-import '@polymer/iron-icon/iron-icon.js';
-import '@polymer/paper-item/paper-icon-item.js';
-import '@polymer/paper-ripple/paper-ripple.js';
-import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import { customElement, listen, property } from '@polymer/decorators/lib/decorators';
+import { html } from '@polymer/polymer/polymer-element';
+import '@polymer/iron-icon/iron-icon';
+import '@polymer/paper-item/paper-icon-item';
+import '@polymer/paper-ripple/paper-ripple';
+import { SettingBase } from '../setting-base/setting-base';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
 /** Polymer element for a url link */
 let SettingLinkElement = class SettingLinkElement extends SettingBase {
     /** Polymer element for a url link */

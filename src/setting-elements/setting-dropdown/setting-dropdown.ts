@@ -13,18 +13,18 @@
 
 import {DomRepeat} from '@polymer/polymer/lib/elements/dom-repeat';
 
-import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators.js';
-import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {customElement, listen, property, query} from '@polymer/decorators/lib/decorators';
+import {html, PolymerElement} from '@polymer/polymer/polymer-element';
 
-import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import '@polymer/paper-item/paper-item.js';
-import '@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu';
+import '@polymer/paper-item/paper-item';
+import '@polymer/paper-listbox/paper-listbox';
 
-import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document';
 
-import {SettingBase} from '../setting-base/setting-base.js';
+import {SettingBase} from '../setting-base/setting-base';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
 
 /** Polymer element to select an item from a list */
 @customElement('setting-dropdown')

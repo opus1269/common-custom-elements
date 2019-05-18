@@ -13,10 +13,10 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {dedupingMixin} from '@polymer/polymer/lib/utils/mixin.js';
-import {PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {dedupingMixin} from '@polymer/polymer/lib/utils/mixin';
+import {PolymerElement} from '@polymer/polymer/polymer-element';
 
-import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales.js';
+import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales';
 
 /**
  * Element class mixin that provides API for chrome.i8n

@@ -13,20 +13,20 @@
  ~ https://goo.gl/wFvBM1
  */
 
-import {customElement} from '@polymer/decorators/lib/decorators.js';
-import {PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {customElement} from '@polymer/decorators/lib/decorators';
+import {PolymerElement} from '@polymer/polymer/polymer-element';
 
-import {DeclarativeEventListeners} from '@polymer/decorators/lib/declarative-event-listeners.js';
-import {GestureEventListeners} from '@polymer/polymer/lib/mixins/gesture-event-listeners.js';
+import {DeclarativeEventListeners} from '@polymer/decorators/lib/declarative-event-listeners';
+import {GestureEventListeners} from '@polymer/polymer/lib/mixins/gesture-event-listeners';
 
-import '@polymer/paper-styles/color.js';
-import '@polymer/paper-styles/typography.js';
+import '@polymer/paper-styles/color';
+import '@polymer/paper-styles/typography';
 
-import '@polymer/iron-flex-layout/iron-flex-layout-classes.js';
+import '@polymer/iron-flex-layout/iron-flex-layout-classes';
 
-import '../shared-styles.js';
+import '../shared-styles';
 
-import {I8nMixin} from '../mixins/i8n_mixin.js';
+import {I8nMixin} from '../mixins/i8n_mixin';
 
 /**
  * Base element for all our PolymerElements

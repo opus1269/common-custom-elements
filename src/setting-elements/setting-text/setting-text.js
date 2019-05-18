@@ -14,14 +14,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  * https://opensource.org/licenses/Apache-2.0
  * https://goo.gl/wFvBM1
  */
-import { customElement, listen, property } from '@polymer/decorators/lib/decorators.js';
-import { html } from '@polymer/polymer/polymer-element.js';
-import '@polymer/paper-input/paper-input.js';
-import '@polymer/paper-item/paper-item-body.js';
-import '@polymer/paper-item/paper-item.js';
-import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
-import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import { customElement, listen, property } from '@polymer/decorators/lib/decorators';
+import { html } from '@polymer/polymer/polymer-element';
+import '@polymer/paper-input/paper-input';
+import '@polymer/paper-item/paper-item';
+import '@polymer/paper-item/paper-item-body';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document';
+import { SettingBase } from '../setting-base/setting-base';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
 /** Polymer element for text entry */
 let SettingTextElement = class SettingTextElement extends SettingBase {
     /** Polymer element for text entry */

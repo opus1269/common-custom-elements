@@ -7,15 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { customElement, listen, observe, property, query, } from '@polymer/decorators/lib/decorators.js';
-import { html } from '@polymer/polymer/polymer-element.js';
-import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import '@polymer/paper-item/paper-item.js';
-import '@polymer/paper-listbox/paper-listbox.js';
-import '@polymer/paper-slider/paper-slider.js';
-import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
-import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import { customElement, listen, observe, property, query, } from '@polymer/decorators/lib/decorators';
+import { html } from '@polymer/polymer/polymer-element';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu';
+import '@polymer/paper-item/paper-item';
+import '@polymer/paper-listbox/paper-listbox';
+import '@polymer/paper-slider/paper-slider';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document';
+import { SettingBase } from '../setting-base/setting-base';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
 /** Polymer element for a url link */
 let SettingSliderElement = class SettingSliderElement extends SettingBase {
     /** Polymer element for a url link */

@@ -14,10 +14,10 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {customElement, property} from '@polymer/decorators/lib/decorators.js';
-import {html} from '@polymer/polymer/polymer-element.js';
+import {customElement, property} from '@polymer/decorators/lib/decorators';
+import {html} from '@polymer/polymer/polymer-element';
 
-import {BaseElement} from '../../base-element/base-element.js';
+import {BaseElement} from '../../base-element/base-element';
 
 /** Base class for a family of setting elements */
 @customElement('setting-base')

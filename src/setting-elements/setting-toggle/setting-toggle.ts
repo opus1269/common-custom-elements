@@ -11,21 +11,21 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {customElement, listen, property} from '@polymer/decorators/lib/decorators.js';
-import {html} from '@polymer/polymer/polymer-element.js';
+import {customElement, listen, property} from '@polymer/decorators/lib/decorators';
+import {html} from '@polymer/polymer/polymer-element';
 
-import '@polymer/iron-label/iron-label.js';
+import '@polymer/iron-label/iron-label';
 
-import '@polymer/paper-item/paper-item-body.js';
-import '@polymer/paper-item/paper-item.js';
-import '@polymer/paper-ripple/paper-ripple.js';
-import '@polymer/paper-toggle-button/paper-toggle-button.js';
+import '@polymer/paper-item/paper-item';
+import '@polymer/paper-item/paper-item-body';
+import '@polymer/paper-ripple/paper-ripple';
+import '@polymer/paper-toggle-button/paper-toggle-button';
 
-import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document';
 
-import {SettingBase} from '../setting-base/setting-base.js';
+import {SettingBase} from '../setting-base/setting-base';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
 
 /** Polymer element for a toggle button */
 @customElement('setting-toggle')
