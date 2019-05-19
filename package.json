@@ -65,7 +65,6 @@
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "web-animations-js": "^2.3.1",
     "@types/chrome": "^0.0.85",
-    "chrome-promise": "^3.0.4",
-    "@opus1269/chrome-ext-utils": "github:opus1269/chrome-ext-utils#v1.1.0"
+    "@opus1269/chrome-ext-utils": "github:opus1269/chrome-ext-utils#v1.3.0"
   }
 }
