@@ -21,9 +21,6 @@ module.exports = {
   },
 
   'globals': {
-    'chrome': true,
-    'ChromePromise': true,
-    'ga': true,
     'require': true,
     'exports': true,
   },
