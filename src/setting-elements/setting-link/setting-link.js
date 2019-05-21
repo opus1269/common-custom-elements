@@ -42,9 +42,7 @@ let SettingLinkElement = class SettingLinkElement extends SettingBase {
         ChromeGA.event(ChromeGA.EVENT.LINK, this.name);
         chrome.tabs.create({ url: this.url });
     }
-    /**
-     * Override mainContent from {@link SettingBase}
-     */
+    /** Override mainContent from {@link SettingBase} */
     static get mainContent() {
         // language=HTML format=false
         return html `<style include="shared-styles iron-flex iron-flex-alignment">

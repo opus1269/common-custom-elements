@@ -14,13 +14,7 @@
 import {PaperListboxElement} from '@polymer/paper-listbox/paper-listbox';
 import {DomRepeat} from '@polymer/polymer/lib/elements/dom-repeat';
 
-import {
-  customElement,
-  listen,
-  observe,
-  property,
-  query,
-} from '@polymer/decorators/lib/decorators';
+import {customElement, listen, observe, property, query} from '@polymer/decorators/lib/decorators';
 import {html} from '@polymer/polymer/polymer-element';
 
 import '@polymer/paper-dropdown-menu/paper-dropdown-menu';
@@ -112,7 +106,6 @@ export class SettingSliderElement extends SettingBase {
   /**
    * Unit menu item tapped
    *
-   * @param ev - tap event
    * @event
    */
   @listen('tap', 'list')
@@ -132,29 +125,25 @@ export class SettingSliderElement extends SettingBase {
    */
   @listen('change', 'slider')
   public onSliderValueChanged() {
-    this._setBase();
+    this.setBase();
     const label = `${this.name}: ${JSON.stringify(this.value)}`;
     ChromeGA.event(ChromeGA.EVENT.SLIDER_VALUE, label);
   }
 
-  /**
-   * Unit changed
-   */
+  /** Selected unit id changed */
   @observe('unitIdx')
-  protected unitIdxChanged(newValue: number | undefined) {
+  protected unitIdxChanged(newValue: number) {
     if (newValue !== undefined) {
       this.set('value.unit', newValue);
-      this._setBase();
+      this.setBase();
       if (this.units !== undefined) {
         this.set('unit', this.units[newValue]);
       }
     }
   }
 
-  /**
-   * Simple Observer: Value changed
-   */
-  protected _valueChanged(newValue: IUnitValue | undefined, oldValue: IUnitValue | undefined) {
+  /** Simple Observer: Value changed */
+  protected _valueChanged(newValue: IUnitValue, oldValue: IUnitValue) {
     if (newValue !== undefined) {
       if (oldValue !== undefined) {
         if (newValue.unit !== oldValue.unit) {
@@ -165,10 +154,8 @@ export class SettingSliderElement extends SettingBase {
     }
   }
 
-  /**
-   * Set the base value
-   */
-  protected _setBase() {
+  /** Set the base value */
+  protected setBase() {
     const unit = this.units[this.unitIdx];
     const mult = unit.mult;
     let displayValue = this.value.display;
@@ -181,9 +168,7 @@ export class SettingSliderElement extends SettingBase {
     this.set('value.base', mult * displayValue);
   }
 
-  /**
-   * Override mainContent from {@link SettingBase}
-   */
+  /** Override mainContent from {@link SettingBase} */
   static get mainContent() {
     // language=HTML format=false
     return html`<style include="shared-styles iron-flex iron-flex-alignment">

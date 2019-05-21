@@ -67,7 +67,6 @@ export class SettingToggleElement extends SettingBase {
   /**
    * Item tapped
    *
-   * @param ev - Tap event
    * @event
    */
   @listen('tap', 'toggle')

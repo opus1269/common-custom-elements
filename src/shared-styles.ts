@@ -10,6 +10,7 @@
  *  https://opensource.org/licenses/BSD-3-Clause
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
+
 import '@polymer/polymer/polymer-element';
 
 /** Element for the shared styles */

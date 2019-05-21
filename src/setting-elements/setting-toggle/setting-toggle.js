@@ -47,7 +47,6 @@ let SettingToggleElement = class SettingToggleElement extends SettingBase {
     /**
      * Item tapped
      *
-     * @param ev - Tap event
      * @event
      */
     onTap(ev) {

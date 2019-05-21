@@ -37,5 +37,4 @@ export const I8nMixin = dedupingMixin((superClass: new () => PolymerElement) => 
   public localize(name: string, def?: string) {
     return ChromeLocale.localize(name, def);
   }
-
 });

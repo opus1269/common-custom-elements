@@ -55,9 +55,7 @@ let ConfirmDialogElement = class ConfirmDialogElement extends BaseElement {
         this.$.dialogText.innerHTML = text;
         this.dialog.open();
     }
-    /**
-     * Hide the dialog
-     */
+    /** Hide the dialog */
     close() {
         this.dialog.close();
     }

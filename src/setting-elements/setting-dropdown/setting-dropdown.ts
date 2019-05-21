@@ -49,7 +49,6 @@ export class SettingDropdownElement extends SettingBase {
   /**
    * menu item tapped
    *
-   * @param ev - tap event
    * @event
    */
   @listen('tap', 'list')
@@ -60,9 +59,7 @@ export class SettingDropdownElement extends SettingBase {
     }
   }
 
-  /**
-   * Override mainContent from {@link SettingBase}
-   */
+  /** Override mainContent from {@link SettingBase} */
   static get mainContent() {
     // language=HTML format=false
     return html`<style include="shared-styles iron-flex iron-flex-alignment">

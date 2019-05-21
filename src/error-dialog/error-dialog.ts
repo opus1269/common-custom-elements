@@ -52,6 +52,9 @@ export class ErrorDialogElement extends BaseElement {
 
   /**
    * Show the dialog
+   *
+   * @param title - dialog title
+   * @param text - dialog message
    */
   public open(title: string, text: string) {
     title = title || 'Unknown';
@@ -62,9 +65,7 @@ export class ErrorDialogElement extends BaseElement {
     this.dialog.open();
   }
 
-  /**
-   * Hide the dialog
-   */
+  /** Hide the dialog */
   public close() {
     this.dialog.close();
   }

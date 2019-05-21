@@ -36,7 +36,6 @@ let SettingBase = class SettingBase extends BaseElement {
     }
     /**
      * Children override this to set the main content
-     *
      * {@link https://polymer-library.polymer-project.org/3.0/docs/devguide/dom-template#inherit}
      */
     static get mainContent() {
@@ -44,8 +43,7 @@ let SettingBase = class SettingBase extends BaseElement {
     }
     static get template() {
         // language=HTML format=false
-        return html `
-<style include="shared-styles iron-flex iron-flex-alignment">
+        return html `<style include="shared-styles iron-flex iron-flex-alignment">
   :host {
     display: block;
     position: relative;
@@ -54,7 +52,7 @@ let SettingBase = class SettingBase extends BaseElement {
   :host([disabled]) {
     pointer-events: none;
   }
-  
+
 </style>
 
 <div id="test" class="section-title setting-label" tabindex="-1" hidden$="[[!sectionTitle]]">

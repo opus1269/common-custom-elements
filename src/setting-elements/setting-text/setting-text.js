@@ -9,10 +9,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 /** */
 /*
- * Copyright (c) 2016-2019, Michael A. Updike All rights reserved.
- * Licensed under Apache 2.0
- * https://opensource.org/licenses/Apache-2.0
- * https://goo.gl/wFvBM1
+ *  Copyright (c) 2015-2019, Michael A. Updike All rights reserved.
+ *  Licensed under the BSD-3-Clause
+ *  https://opensource.org/licenses/BSD-3-Clause
+ *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 import { customElement, listen, property } from '@polymer/decorators/lib/decorators';
 import { html } from '@polymer/polymer/polymer-element';

@@ -7,10 +7,10 @@
 /** */
 
 /*
- ~ Copyright (c) 2016-2017, Michael A. Updike All rights reserved.
- ~ Licensed under Apache 2.0
- ~ https://opensource.org/licenses/Apache-2.0
- ~ https://goo.gl/wFvBM1
+ *  Copyright (c) 2015-2019, Michael A. Updike All rights reserved.
+ *  Licensed under the BSD-3-Clause
+ *  https://opensource.org/licenses/BSD-3-Clause
+ *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
 import {customElement} from '@polymer/decorators/lib/decorators';
@@ -59,5 +59,4 @@ export class BaseElement extends I8nMixin(GestureEventListeners(DeclarativeEvent
     }
     this.dispatchEvent(customEvent);
   }
-
 }

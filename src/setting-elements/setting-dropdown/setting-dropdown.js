@@ -30,7 +30,6 @@ let SettingDropdownElement = class SettingDropdownElement extends SettingBase {
     /**
      * menu item tapped
      *
-     * @param ev - tap event
      * @event
      */
     onItemSelected(ev) {
@@ -39,9 +38,7 @@ let SettingDropdownElement = class SettingDropdownElement extends SettingBase {
             ChromeGA.event(ChromeGA.EVENT.MENU, `${this.name}: ${model.get('index')}`);
         }
     }
-    /**
-     * Override mainContent from {@link SettingBase}
-     */
+    /** Override mainContent from {@link SettingBase} */
     static get mainContent() {
         // language=HTML format=false
         return html `<style include="shared-styles iron-flex iron-flex-alignment">

@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { customElement, listen, observe, property, query, } from '@polymer/decorators/lib/decorators';
+import { customElement, listen, observe, property, query } from '@polymer/decorators/lib/decorators';
 import { html } from '@polymer/polymer/polymer-element';
 import '@polymer/paper-dropdown-menu/paper-dropdown-menu';
 import '@polymer/paper-item/paper-item';
@@ -52,7 +52,6 @@ let SettingSliderElement = class SettingSliderElement extends SettingBase {
     /**
      * Unit menu item tapped
      *
-     * @param ev - tap event
      * @event
      */
     onUnitMenuSelected(ev) {
@@ -69,25 +68,21 @@ let SettingSliderElement = class SettingSliderElement extends SettingBase {
      * @event
      */
     onSliderValueChanged() {
-        this._setBase();
+        this.setBase();
         const label = `${this.name}: ${JSON.stringify(this.value)}`;
         ChromeGA.event(ChromeGA.EVENT.SLIDER_VALUE, label);
     }
-    /**
-     * Unit changed
-     */
+    /** Selected unit id changed */
     unitIdxChanged(newValue) {
         if (newValue !== undefined) {
             this.set('value.unit', newValue);
-            this._setBase();
+            this.setBase();
             if (this.units !== undefined) {
                 this.set('unit', this.units[newValue]);
             }
         }
     }
-    /**
-     * Simple Observer: Value changed
-     */
+    /** Simple Observer: Value changed */
     _valueChanged(newValue, oldValue) {
         if (newValue !== undefined) {
             if (oldValue !== undefined) {
@@ -98,10 +93,8 @@ let SettingSliderElement = class SettingSliderElement extends SettingBase {
             }
         }
     }
-    /**
-     * Set the base value
-     */
-    _setBase() {
+    /** Set the base value */
+    setBase() {
         const unit = this.units[this.unitIdx];
         const mult = unit.mult;
         let displayValue = this.value.display;
@@ -111,9 +104,7 @@ let SettingSliderElement = class SettingSliderElement extends SettingBase {
         displayValue = Math.min(displayValue, unit.max);
         this.set('value.base', mult * displayValue);
     }
-    /**
-     * Override mainContent from {@link SettingBase}
-     */
+    /** Override mainContent from {@link SettingBase} */
     static get mainContent() {
         // language=HTML format=false
         return html `<style include="shared-styles iron-flex iron-flex-alignment">

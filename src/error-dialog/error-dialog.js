@@ -36,6 +36,9 @@ let ErrorDialogElement = class ErrorDialogElement extends BaseElement {
     }
     /**
      * Show the dialog
+     *
+     * @param title - dialog title
+     * @param text - dialog message
      */
     open(title, text) {
         title = title || 'Unknown';
@@ -45,9 +48,7 @@ let ErrorDialogElement = class ErrorDialogElement extends BaseElement {
         this.$.dialogText.innerHTML = text;
         this.dialog.open();
     }
-    /**
-     * Hide the dialog
-     */
+    /** Hide the dialog */
     close() {
         this.dialog.close();
     }

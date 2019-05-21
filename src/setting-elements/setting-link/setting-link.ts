@@ -50,9 +50,7 @@ export class SettingLinkElement extends SettingBase {
     chrome.tabs.create({url: this.url});
   }
 
-  /**
-   * Override mainContent from {@link SettingBase}
-   */
+  /** Override mainContent from {@link SettingBase} */
   static get mainContent() {
     // language=HTML format=false
     return html`<style include="shared-styles iron-flex iron-flex-alignment">
