@@ -10,12 +10,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { customElement, listen, property, query } from '@polymer/decorators/lib/decorators';
-import { html } from '@polymer/polymer/polymer-element';
-import '@polymer/paper-button/paper-button';
-import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable';
-import '@polymer/paper-dialog/paper-dialog';
-import '@polymer/paper-item/paper-item';
+import { customElement, listen, property, query } from '@polymer/decorators/lib/decorators.js';
+import { html } from '@polymer/polymer/polymer-element.js';
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
+import '@polymer/paper-dialog/paper-dialog.js';
+import '@polymer/paper-item/paper-item.js';
 import '@polymer/neon-animation/animations/fade-out-animation';
 import '@polymer/neon-animation/animations/scale-up-animation';
 import { BaseElement } from '../base-element/base-element';

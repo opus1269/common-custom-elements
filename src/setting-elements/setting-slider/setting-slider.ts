@@ -14,13 +14,13 @@
 import {PaperListboxElement} from '@polymer/paper-listbox/paper-listbox';
 import {DomRepeat} from '@polymer/polymer/lib/elements/dom-repeat';
 
-import {customElement, listen, observe, property, query} from '@polymer/decorators/lib/decorators';
-import {html} from '@polymer/polymer/polymer-element';
+import {customElement, listen, observe, property, query} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '@polymer/paper-dropdown-menu/paper-dropdown-menu';
-import '@polymer/paper-item/paper-item';
-import '@polymer/paper-listbox/paper-listbox';
-import '@polymer/paper-slider/paper-slider';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-slider/paper-slider.js';
 
 import '@polymer/app-storage/app-localstorage/app-localstorage-document';
 

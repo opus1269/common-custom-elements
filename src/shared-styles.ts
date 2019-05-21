@@ -11,7 +11,7 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import '@polymer/polymer/polymer-element';
+import '@polymer/polymer/polymer-element.js';
 
 /** Element for the shared styles */
 const sharedStyles = document.createElement('dom-module');

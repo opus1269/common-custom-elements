@@ -11,17 +11,17 @@
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
 
-import {customElement, listen, property} from '@polymer/decorators/lib/decorators';
-import {html} from '@polymer/polymer/polymer-element';
+import {customElement, listen, property} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '@polymer/iron-icon/iron-icon';
+import '@polymer/iron-icon/iron-icon.js';
 
-import '@polymer/paper-item/paper-icon-item';
-import '@polymer/paper-ripple/paper-ripple';
+import '@polymer/paper-item/paper-icon-item.js';
+import '@polymer/paper-ripple/paper-ripple.js';
 
-import {SettingBase} from '../setting-base/setting-base';
+import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
 /** Polymer element for a url link */
 @customElement('setting-link')

@@ -9,17 +9,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { customElement, listen, property, query } from '@polymer/decorators/lib/decorators';
-import { html } from '@polymer/polymer/polymer-element';
-import '@polymer/iron-selector/iron-selector';
-import '@polymer/paper-button/paper-button';
-import '@polymer/paper-dialog/paper-dialog';
-import '@polymer/paper-item/paper-item';
-import '@polymer/paper-item/paper-item-body';
-import '@polymer/paper-ripple/paper-ripple';
-import '@polymer/app-storage/app-localstorage/app-localstorage-document';
-import { SettingBase } from '../setting-base/setting-base';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
+import { customElement, listen, property, query } from '@polymer/decorators/lib/decorators.js';
+import { html } from '@polymer/polymer/polymer-element.js';
+import '@polymer/iron-selector/iron-selector.js';
+import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-dialog/paper-dialog.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-ripple/paper-ripple.js';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import { SettingBase } from '../setting-base/setting-base.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 /** Polymer element to select a background style */
 let SettingBackgroundElement = class SettingBackgroundElement extends SettingBase {
     /** Polymer element to select a background style */
