@@ -13,9 +13,9 @@ import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
 import '@polymer/paper-item/paper-item.js';
 import '@polymer/paper-listbox/paper-listbox.js';
 import '@polymer/paper-slider/paper-slider.js';
-import '@polymer/app-storage/app-localstorage/app-localstorage-document';
-import { SettingBase } from '../setting-base/setting-base';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
+import { SettingBase } from '../setting-base/setting-base.js';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 /** Polymer element for a url link */
 let SettingSliderElement = class SettingSliderElement extends SettingBase {
     /** Polymer element for a url link */
