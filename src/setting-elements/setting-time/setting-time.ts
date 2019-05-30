@@ -10,18 +10,18 @@
  *  https://opensource.org/licenses/BSD-3-Clause
  *  https://github.com/opus1269/screensaver/blob/master/LICENSE.md
  */
-import {customElement, property} from '@polymer/decorators/lib/decorators';
-import {html} from '@polymer/polymer/polymer-element';
+import {customElement, property} from '@polymer/decorators/lib/decorators.js';
+import {html} from '@polymer/polymer/polymer-element.js';
 
-import '@polymer/paper-input/paper-input';
-import '@polymer/paper-item/paper-item';
-import '@polymer/paper-item/paper-item-body';
+import '@polymer/paper-input/paper-input.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-item/paper-item.js';
 
-import '@polymer/app-storage/app-localstorage/app-localstorage-document';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
-import {SettingBase} from '../setting-base/setting-base';
+import {SettingBase} from '../setting-base/setting-base.js';
 
-import {DEF_TIME} from '@opus1269/chrome-ext-utils/src/time';
+import {DEF_TIME} from '@opus1269/chrome-ext-utils/src/time.js';
 
 /** Polymer element for time entry */
 @customElement('setting-time')

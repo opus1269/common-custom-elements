@@ -24,14 +24,14 @@ import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
 import '@polymer/paper-dialog/paper-dialog.js';
 import '@polymer/paper-item/paper-item.js';
 
-import '@polymer/neon-animation/animations/fade-out-animation';
-import '@polymer/neon-animation/animations/scale-up-animation';
+import '@polymer/neon-animation/animations/fade-out-animation.js';
+import '@polymer/neon-animation/animations/scale-up-animation.js';
 
-import {BaseElement} from '../base-element/base-element';
+import {BaseElement} from '../base-element/base-element.js';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
-import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales';
-import * as ChromeUtils from '@opus1269/chrome-ext-utils/src/utils';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales.js';
+import * as ChromeUtils from '@opus1269/chrome-ext-utils/src/utils.js';
 
 /** Polymer dialog to confirm an action */
 @customElement('confirm-dialog')

@@ -22,11 +22,11 @@ import '@polymer/paper-item/paper-item.js';
 import '@polymer/paper-listbox/paper-listbox.js';
 import '@polymer/paper-slider/paper-slider.js';
 
-import '@polymer/app-storage/app-localstorage/app-localstorage-document';
+import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
-import {SettingBase} from '../setting-base/setting-base';
+import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics';
+import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
 
 /** Unit type */
 interface IUnitType {
